@@ -5,7 +5,7 @@ services:
     ports:  
       - 3000:3000
     volumes:
-      - vol-simple-apps:/apps/public
+      - vol-simple-apps:/apps/public/images
 
 volumes:
   vol-simple-apps:
