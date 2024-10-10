@@ -1,6 +1,6 @@
 services:
   simple-apps:
-    image: herawati/simple-apps
+    image: bundakeisha/simple-apps
     build:  ./apps 
     ports:  
       - 3000:3000
